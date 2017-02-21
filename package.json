@@ -1,0 +1,26 @@
+{
+  "name": "http-checker",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "description": "GET and POST the Web page.",
+  "main": "app.js",
+  "repository": "https://github.com/daichi703n/express-http-checker",
+  "author": "Daichi Kimura <daichi703n@gmail.com>",
+  "dependencies": {
+    "body-parser": "~1.16.0",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.0",
+    "express": "~4.14.1",
+    "jade": "~1.11.0",
+    "morgan": "~1.7.0",
+    "serve-favicon": "~2.3.2",
+    
+    "express-generator": "~4.x.x",
+    "node-dev": "~3.x.x",
+    "then-request": "~2.x.x",
+    "util": "~0.x.x"
+  }
+}
