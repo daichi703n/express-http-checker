@@ -1,0 +1,22 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+
+  form(method="GET", target="./")
+    input(type="text", name="path" value="http://example.com/")
+    //input(type="hidden", name="mode" value="input")
+    input(type="submit", value="GET")
+
+  form(method="GET", target="./")
+    input(type="text", name="path" value="https://example.com/")
+    //input(type="hidden", name="mode" value="input")
+    input(type="submit", value="GET")
+
+  p Path: #{path}
+  p statusCode: #{code}
+  p Header.date: #{date}
+  p Body: #{body}
+
+  p <a href="../">Top</a>
