@@ -21,6 +21,7 @@
     "express-generator": "~4.x.x",
     "node-dev": "~3.x.x",
     "then-request": "~2.x.x",
+    "ping": "~0.x.x",
     "util": "~0.x.x"
   }
 }
